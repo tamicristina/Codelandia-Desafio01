@@ -1,0 +1,50 @@
+header {
+  background-color: #574ae8;
+  width: 1440px;
+  height: 250px;
+}
+
+.container_header {
+  width: 901px;
+  height: 168px;
+}
+
+.header_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+p {
+   color: var(--title);
+}
+
+.text {
+  color: #ffffff;
+}
+
+.busca {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  width: 900px;
+  height: 65px;
+}
+
+.search_img {
+  width: 23.44px;
+  height: 23.44px;
+}
+
+.txt_busca {
+  background-color: transparent;
+  border: none;
+  color: red;
+  font-size: 18px;
+}
+input::placeholder {
+  color: #ffffff;
+  opacity: 0.5;
+}
