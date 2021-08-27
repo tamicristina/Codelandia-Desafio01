@@ -1,22 +1,36 @@
-header {
-  background-color: #574ae8;
-  width: 1440px;
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+#header {
+  background: var(--linear);
+  width: 100%;
   height: 250px;
 }
 
 .container_header {
-  width: 901px;
-  height: 168px;
-}
-
-.header_text {
+  height: 250px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+.header_text {
+  width: 100%;
+  height: 50%;
+  display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+.container_busca {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+
+  align-items: center;
 }
 
 p {
    color: var(--title);
+  padding: 0 29%;
+  font-family: Lexend Deca;
 }
 
 .text {
@@ -36,13 +50,14 @@ p {
 .search_img {
   width: 23.44px;
   height: 23.44px;
+  padding-left: 10px;
 }
 
 .txt_busca {
   background-color: transparent;
   border: none;
-  color: red;
   font-size: 18px;
+  padding-left: 10px;
 }
 input::placeholder {
   color: #ffffff;

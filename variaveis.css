@@ -8,9 +8,3 @@
 
   --linear: linear-gradient(90deg, #574ae8 0%, #3ea1db 100%);
 }
-
-header {
-  background-color: var(--blue);
-  width: 1440px;
-  height: 250px;
-}
