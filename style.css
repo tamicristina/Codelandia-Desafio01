@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 
+body {
+  background-color: #f3f5f7;
+}
 #header {
   background: var(--linear);
   width: 100%;
@@ -7,34 +10,29 @@
 }
 
 .container_header {
-  height: 250px;
   display: flex;
+  height: 250px;
+  width: 900px;
   flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
 }
 .header_text {
   width: 100%;
   height: 50%;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.container_busca {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 100%;
-
+  justify-content: space-between;
   align-items: center;
 }
 
 p {
    color: var(--title);
-  padding: 0 29%;
+
   font-family: Lexend Deca;
 }
 
 .text {
-  color: #ffffff;
+  color: var(--white);
 }
 
 .busca {
@@ -47,13 +45,19 @@ p {
   height: 65px;
 }
 
+.busca input {
+  width: 900px;
+  height: 65px;
+  style: none;
+}
+
 .search_img {
   width: 23.44px;
   height: 23.44px;
   padding-left: 10px;
 }
 
-.txt_busca {
+.txt_search {
   background-color: transparent;
   border: none;
   font-size: 18px;
@@ -62,4 +66,64 @@ p {
 input::placeholder {
   color: #ffffff;
   opacity: 0.5;
+}
+
+textarea:focus,
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  color: var(--white);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.news_container {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+  border-radius: 5px;
+}
+
+.news_container_header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.date_txt {
+  font-size: 16px;
+  font-family: Lexend Deca;
+  color: var(--text);
+}
+
+.heart_icon {
+  width: 25px;
+  height: 25px;
+}
+
+.container_text {
+  margin: 0px 15px;
+}
+
+.title_text {
+  font-size: 26px;
+  font-family: Lexend Deca;
+  font-weight: normal;
+  color: var(--title);
+  margin-left: 25px;
+}
+
+.news_text {
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: var(--text);
+  margin: 10px 25px 25px;
 }
