@@ -45,14 +45,14 @@ body {
 .search_img {
   width: 23.44px;
   height: 23.44px;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .txt_search {
   background-color: transparent;
   border: none;
   font-size: 18px;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 input::placeholder {
   color: #ffffff;
